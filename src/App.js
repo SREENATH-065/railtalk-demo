@@ -14,6 +14,7 @@ const RailTalkDemo = () => {
 
   const [polls, setPolls] = useState([]);
   const [showUserMenu, setShowUserMenu] = useState(null);
+  const [newMessage, setNewMessage] = useState('');
   const [formData, setFormData] = useState({ name: '', ticket: '', train: '' });
   const [roomForm, setRoomForm] = useState({ trainNumber: '', coachNumber: '' });
   const messagesEndRef = useRef(null);
